@@ -1,10 +1,10 @@
 #include <Arduino.h>
 #include <WiFi.h>
-#define SCAN_RATE 2000      //Time to wait between scans (in ms)
+const int SCAN_RATE = 2000      //Time to wait between scans (in ms)
 
 /* 
-  Entry Point. 
-  Establishes serial connection, tests wifi modem, sends confirmation message to console.
+  Flow: Entry Point
+  Purpose: Establishes serial connection, tests wifi modem, sends confirmation message to console
 */
 void setup() 
 {
@@ -17,8 +17,9 @@ void setup()
 }
 
 /* 
-  Called by framework after setup() completes, runs in a loop until device termination. 
-  Scans for wifi networks, delivers reports over serial
+  Flow: Called by framework after setup() completes, runs in a loop until device termination
+  Purpose: Scans for wifi networks
+  Output: Delivers reports over serial
 */
 void loop() 
 {
