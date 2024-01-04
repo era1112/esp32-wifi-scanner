@@ -1,4 +1,5 @@
-ESP32-based wifi beacon logger
+ESP32-based wifi beacon logger.
+
 A lot of what people are doing on rasp pi's is overkill and an ESP32 could be used instead.
 
 Use case:
