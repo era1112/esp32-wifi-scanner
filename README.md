@@ -24,7 +24,7 @@ Flow of control:
   - Scans for hidden and visible wifi networks, prints a table with SSID, RSSI, and encryption type
   - In this version, all output is live to a serial receiver (115200)
 
-Documentation
+Documentation:
 - This readme, and the comments in the /src files
 
 Dependencies:
