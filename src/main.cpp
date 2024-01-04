@@ -1,6 +1,11 @@
 #include <Arduino.h>
 #include <WiFi.h>
+#define SCAN_RATE 2000      //Time to wait between scans (in ms)
 
+/* 
+  Entry Point. 
+  Establishes serial connection, tests wifi modem, sends confirmation message to console.
+*/
 void setup() 
 {
   Serial.begin(115200);
@@ -11,6 +16,10 @@ void setup()
   Serial.println("***** Boot/setup complete *****");
 }
 
+/* 
+  Called by framework after setup() completes, runs in a loop until device termination. 
+  Scans for wifi networks, delivers reports over serial
+*/
 void loop() 
 {
   Serial.println("*** Start Scan ***");
@@ -32,6 +41,6 @@ void loop()
     Serial.println((WiFi.encryptionType(i) == WIFI_AUTH_OPEN) ? "   OPEN ":"   Password Required");
   }
 
-  delay(2000);
+  delay(SCAN_RATE);
 
 }
