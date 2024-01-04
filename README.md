@@ -9,7 +9,7 @@ Use case:
 Setup:
 
 - Flash project to ESP32 using platformio on VSCode
-- In this version, code executes immediately and passes data off the device using serial
+- In this version, collection routine executes immediately and passes data off the device using serial
 - For testing, use the serial-over-usb and serial monitor in VSCode
 
 Project layout:
