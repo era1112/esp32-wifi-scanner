@@ -28,7 +28,7 @@ Documentation:
 - This readme, and the comments in the /src files
 
 Dependencies:
-platformio, including arduino wifi library
+- platformio, including arduino wifi library
 
 Future:
 - local storage of logs with sd card expansion or on EEPROM
