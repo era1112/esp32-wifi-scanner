@@ -19,7 +19,7 @@ Project layout:
 Flow of control:
 - main.cpp:
   - setup() and loop() are called from the framework
-  - Establish serial comms
+  - Establishes serial comms
   - Scans for hidden and visible wifi networks, prints a table with SSID, RSSI, and encryption type
   - In this version, all output is live to a serial receiver (115200)
 
