@@ -1,6 +1,6 @@
 ESP32-based wifi beacon logger.
 
-A lot of what people are doing on rasp pi's is overkill and an ESP32 could be used instead.
+A lot of what people are doing on rasp pi's is overkill can be accomplished on an ESP32 instead.
 
 Use case:
 - Log wifi base stations with key information, on a very small size and power device.
