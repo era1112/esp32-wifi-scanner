@@ -4,7 +4,8 @@ A lot of what people are doing on rasp pi's is overkill and an ESP32 could be us
 
 Use case:
 - Log wifi base stations with key information, on a very small size and power device.
-- Definitely expandable to add more 802.11 research features. 
+- In this version, findings are read over a serial connection.
+- Definitely expandable to add more storage, remote access, and 802.11 research features. 
 
 Setup:
 
