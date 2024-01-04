@@ -15,7 +15,7 @@ Setup:
 
 Project layout:
 - Developed in C++ on platformio in VSCode
-- device behavior files are in /src/
+- runtime behavior defined in /src/main.cpp
 
 Flow of control:
 - main.cpp:
